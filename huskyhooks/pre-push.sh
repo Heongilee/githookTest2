@@ -22,7 +22,7 @@ fi
 
 if [ "$remote_ref" == "$FORBIDDEN_REF" ]
 then
-    echo "DO NOT PUSH it master"
+    echo "❌githook으로 인해서 master브랜치로 push 작업이 중단됐습니다. 다른 브랜치로 push 바랍니다."
     exit 1 # 금지된 ref 로 push 를 실행하면 에러
 fi
 
