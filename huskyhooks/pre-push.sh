@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 FORBIDDEN_HTTPS_URL="https://github.com/Heongilee/githookTest2.git" # insert your remote url (https)
 FORBIDDEN_SSH_URL="git@github.com:Heongilee/githookTest2.git" # insert your remote url (ssh)
